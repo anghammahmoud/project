@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ header{
+    background: url('../img/bg.jpg') no-repeat center  center;
+    background-size: cover;
+    height: 700px;
+
+ }
+  header #topnav{
+      height: 60px;
+      width: 100%;
+      background-color:  rgb(11, 72, 122);
+      color: whitesmoke;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      padding: 0 50px;
+      line-height: 3;
+  }
+  #topnav #logo{
+      width: 30%;
+      float: left;
+  }
+  #topnav #mainnav{
+      float: right;
+      width: 70%;
+      text-align: right;
+  }
+  #topnav .logoicon{
+      color: whitesmoke;
+      font-size: 35px;
+      line-height: 1.8;
+  }
+  #mainnav .navitem{
+      color: whitesmoke;
+      margin-left: 80px;
+      line-height: 3.5;
+      display: inline-block;
+      height: 60px;
+      padding: 0 15px;
+  }
+  #mainnav .navitem:hover{
+      color: navy;
+  }
+  #mainnav .active{
+      background-color: hsl(0, 0%, 100%);
+      color: rgb(11, 72, 122);
+      display: inline-block;
+      height: 60px;
+      padding: 0 15px;
+
+  }
+  #head .sitetitle{
+      background-color: rgb(11, 72, 122);
+      color: whitesmoke;
+      width: 50%;
+      font-size: 50px;
+      padding: 30px;
+      margin-left: 35px;
+      
+  }
+  #head {
+      padding-top: 230px;
+  }
+#Services{
+    padding: 25px;
+    background-color: rgb(243, 243, 243);
+    height: 500px;
+}
+#services_sec .sechead{
+    color: rgb(11, 72, 122);
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+#services_sec .headhr{
+    width: 15%;
+    margin: auto;
+    border: 1px solid rgb(11, 72, 122);
+    margin-bottom: 30px;
+}
+#services_sec .service{
+    width: 32.333%;
+    float: left;
+    border: 2px solid rgb(11, 72, 122);
+    border-radius: 10px;
+    padding: 25px;
+}
+#services_sec .service2, #services_sec .service3{
+    margin-left: 1.5%;
+}
+#Services .num{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(11, 72, 122);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height:2 ;
+    margin-bottom: 30px;
+}
+#Services .serviceName{
+    color: rgb(11, 72, 122);
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-size: 27px;
+    font-family: cursive;
+}
+#Services .servicedescr{
+    text-align: justify;
+    line-height: 2;
+    color: rgb(126, 123, 123);
+}
+#services_sec .service:hover{
+    color: whitesmoke;
+    border: 2px solid rgb(177, 178, 180);
+    cursor: pointer;
+    background-color:rgb(11, 72, 122) ;
+    
+}
+#services_sec .service:hover .num{
+    background-color:white;
+    color:rgb(11, 72, 122);
+
+}
+#services_sec .service:hover .serviceName{
+    color: white;
+}
+#services_sec .service:hover .servicedescr{
+    color: white;
+}
+footer{
+    background: url('../img/bg.jpg') no-repeat center center;
+    height: 350px;
+    background-size: cover;
+}
+footer #footer{
+    background: rgba(2, 8, 32, 0.9);
+    height: 350px;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+    font-family: cursive;
+}
+#footer .side{
+    float: left;
+    width: 33.333%;
+    padding: 35px;
+}
+#footer .side-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+
+}
+.infoside .site-about{
+    line-height: 2;
+    margin-bottom:15px;
+}
+.infoside .social{
+    text-align: center;
+}
+.social .socialicon{
+    font-size: 25px;
+    margin-left: 8px;
+}
+#footer  .quicklinks  .qlinks {
+    margin-left: 22px;
+
+}
+.qlinks  .qlink-li {
+    margin-bottom: 10px;
+}
+.qlink-li .qlink-item{
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+.qlink-li .qlink-item:hover{
+    color: rgba(0, 255, 242, 0.9);
+    text-decoration: underline;
+}
+#footer .contact .contactform{
+
+}
+.contactform .inputf,.contactform .inputarea ,.contactform .btn{
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 17px 22px;
+    border-radius: 10px;
+    border: 2px solid rgb(136, 134, 134);
+}
+.contactform .inputf:focus,.contactform .inputarea:focus{
+outline: 0;
+border: 1px solid rgb(11, 72, 122) ;
+}
+.contactform .btn{
+    background-color: rgb(11, 72, 122);
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+}
+.contactform .btn:hover{
+    background-color:rgba(0, 255, 242, 0.9) ;
+    color:rgb(11, 72, 122) ;
+    cursor: pointer;
+}
+#copyright{
+    background-color: slategray;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+   line-height: 3;
+   
+}
